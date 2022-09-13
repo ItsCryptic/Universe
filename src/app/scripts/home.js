@@ -1,4 +1,4 @@
-var os = require("os");
+let os = require("os");
 
 if (os.type().toString().includes("arch")) {
   document.getElementById("if-arch").style.visibility = "hidden";
