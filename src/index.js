@@ -1,6 +1,6 @@
 const { app, BrowserWindow } = require("electron");
 const path = require("path");
-let exec = require("child_process").exec;
+
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 600,
