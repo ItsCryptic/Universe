@@ -2,14 +2,18 @@
 <html>
     <head>
         <title>Universe - Settings</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/dist/output.css" rel="stylesheet">
     </head>
     <body>
-        <div id="settings-container">
+        <div class="bg-stone-800" id="settings-container">
             <div id="settings-navigation-sidebar">
-                
+                <nav className="flex bg-black sm:justify-center space-x-4">
+                    <a href="index.html" class="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">Apps</a>
+                    <a href="login.html" class="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">Login</a>
+                </nav>
             </div>
         </div>
     </body>
-    <footer><a href="legal.html">Legal stuff</a> </footer>
+    <footer><a class="bg-black rounded-lg py-2 font-semibold" href="legal.html">Legal stuff</a> <a class="bg-black rounded-lg py-2 font-semibold" href="license.html"></a> </footer>
 </html>
