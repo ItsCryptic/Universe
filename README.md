@@ -19,10 +19,19 @@ Run:
 ```
 npx tailwindcss -i ./src/app/css/tailwind.css -o ./dist/output.css --watch
 ```
+OR:
+```
+npx tailwindcss -o src/app/css/output.css --minify
+```
 
 This will start up tailwind development mode. Please use tailwind when doing things within this application, custom CSS is allowed if tailwind cannot be used for a certain component.
 
 Testing Electron:
+
+Run:
+```
+npx tailwindcss -o src/app/css/output.css --minify
+```
 
 ```
 npm run start
@@ -36,7 +45,7 @@ Run:
 npm run make
 ```
 
-# Testing
+# Unit Testing
 
 Use: https://www.electronjs.org/docs/latest/development/testing/
 
