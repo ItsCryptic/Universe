@@ -13,8 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/ItsCryptic/Universe.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "ItsCryptic",
+  "license": "GNU General Public License v3.0",
   "bugs": {
     "url": "https://github.com/ItsCryptic/Universe/issues"
   },
