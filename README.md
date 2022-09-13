@@ -33,3 +33,19 @@ npm run make
 # Testing
 
 Use: https://www.electronjs.org/docs/latest/development/testing/ 
+
+# Todo
+
+Have app respect system theme instead of only using dark mode.
+
+Check to see if flatpak (and flathub is added), if its there display all the apps from flathub.
+
+Check to see if snap is there, if it isnt then dont display, if it is, display it.
+
+Check normal system repositories and display things from there.
+
+Check AUR (if on archlinux) and display things from there.
+
+Check COPR (fedora only) and display things from there (like the apps from the different repos, if the repo isnt added, give the user an option to add it.)
+
+User accounts to remember what apps you have installed in the past (signing in isnt required but should be recommended.). This may also have integration with other services like Discord, GNOME or KDE Accounts.
