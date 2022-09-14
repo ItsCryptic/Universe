@@ -9,7 +9,8 @@ const createWindow = () => {
       preload: path.join("app/scripts", "preload.js"),
     },
   });
-  win.loadFile("app/pages/index.html");
+  win.loadFile("src/app/pages/index.html");
+  win.webContents.openDevTools();
 };
 
 app.whenReady().then(() => {
@@ -23,3 +24,4 @@ app.on("window-all-closed", () => {
 app.on("activate", () => {
   if (BrowserWindow.getAllWindows().length === 0) createWindow();
 });
+
